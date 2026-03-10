@@ -1,4 +1,4 @@
-# env-guard
+# typesafe-env
 
 Type-safe environment variable validation and parsing with **zero dependencies**.
 
@@ -12,13 +12,13 @@ Type-safe environment variable validation and parsing with **zero dependencies**
 ## Install
 
 ```bash
-npm install env-guard
+npm install typesafe-env
 ```
 
 ## Quick Start
 
 ```ts
-import { createEnv } from "env-guard";
+import { createEnv } from "typesafe-env";
 
 const env = createEnv({
   PORT: { type: "port", default: 3000 },
@@ -41,7 +41,7 @@ const env = createEnv({
 If `DATABASE_URL` is missing, you get a clear error:
 
 ```
-EnvGuardError: Environment validation failed:
+TypesafeEnvError: Environment validation failed:
   - DATABASE_URL: missing required environment variable
 ```
 

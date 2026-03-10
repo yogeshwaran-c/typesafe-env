@@ -1,5 +1,5 @@
 {
-  "name": "env-guard",
+  "name": "typesafe-env",
   "version": "0.1.0",
   "description": "Type-safe environment variable validation and parsing with zero dependencies",
   "main": "./dist/index.js",
@@ -46,11 +46,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yogeshwaran-c/env-guard.git"
+    "url": "git+https://github.com/yogeshwaran-c/typesafe-env.git"
   },
-  "homepage": "https://github.com/yogeshwaran-c/env-guard#readme",
+  "homepage": "https://github.com/yogeshwaran-c/typesafe-env#readme",
   "bugs": {
-    "url": "https://github.com/yogeshwaran-c/env-guard/issues"
+    "url": "https://github.com/yogeshwaran-c/typesafe-env/issues"
   },
   "engines": {
     "node": ">=18"
